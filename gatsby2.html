@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating posts and pages</title>
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c7473138d7.js" crossorigin="anonymous"></script>
+    <!-- reset css -->
+    <link rel="stylesheet" href="styles/resate.css">
+    <!-- my css link -->
+    <link rel="stylesheet" href="styles/gatsby2.css">
+
+</head>
+<body>
+
+<!-- start main-mav section -->
+
+<nav>
+    <div class="container nav-container">
+        <div class="brand-logo">
+            <a href="home.html">
+                <img src="img/logo.svg" alt="brand logo">
+            </a>
+        </div>
+            <div class="nav-items">
+                <div class="item">
+                    <a href="home.html">home</a>
+                </div>
+                <div class="item">
+                    <a href="about.html">about</a>
+                </div>
+                <div class="item">
+                    <a href="blog.html">blog</a>
+                </div>
+                <div class="item active">
+                    <a href="contact.html">contact</a>
+                </div>
+            </div>
+            <div class="btn">
+                <a href="#">button</a>
+            </div>
+    </div>
+</nav>    
+
+<!-- start Creating posts and pages -->
+
+<div class="container main-container">
+    <div class="main-item-container">
+        <h1>Creating posts and pages</h1>
+        <h2>Adding new content</h2>
+        <hr class="hrow">
+        <p>
+            All you need to do is creating new markdown files.
+        </p>
+        <p>
+            Blogposts are defined in <code class="blog">blog</code> directory and pages are defined in <code class="page">page</code> directory.
+        </p>
+        <h2>Understanding the slug</h2>
+        <hr class="hrow">
+        <p>
+            The file names are the <code class="slug">slug</code> of the posts and pages. Use <code class="file-name">file-name.md</code> for the default language and any other language needs to be defined in the format <code class="name-with">name-with-dashes.lang.md</code>.
+        </p>
+        <h2>Displaying the new content</h2>
+        <hr class="hrow">
+        <p>
+            Posts are added automatically to the blog list and pages need to be linked in the menu.
+        </p>
+    </div>    
+</div>
+<hr class="lrow">
+
+<!-- start footer section -->
+
+<footer class="container">
+    <div class="icon">
+        <a href="#">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+    <p>Iceberg Gatsby is a PWA, save it for offline reading. <a href="#"> See more PWA here.</a> </p>
+    <p>Maintained by <a href="#">@_diogorodrigues.</a> You can always contribute with the project on <a href="#">Github.</a></p>
+</footer>
+
+<!-- end footer section -->
+
+</body>
+</html>

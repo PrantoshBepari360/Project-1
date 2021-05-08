@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding menu items</title>
+    <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c7473138d7.js" crossorigin="anonymous"></script>
+    <!-- reset css -->
+    <link rel="stylesheet" href="styles/resate.css">
+    <!-- my css link -->
+    <link rel="stylesheet" href="styles/gatsby1.css">
+
+</head>
+<body>
+    
+    <!-- start main-mav section -->
+
+    <nav>
+        <div class="container nav-container">
+            <div class="brand-logo">
+                <a href="home.html">
+                    <img src="img/logo.svg" alt="brand logo">
+                </a>
+            </div>
+                <div class="nav-items">
+                    <div class="item">
+                        <a href="home.html">home</a>
+                    </div>
+                    <div class="item">
+                        <a href="about.html">about</a>
+                    </div>
+                    <div class="item">
+                        <a href="blog.html">blog</a>
+                    </div>
+                    <div class="item active">
+                        <a href="contact.html">contact</a>
+                    </div>
+                </div>
+                <div class="btn">
+                    <a href="#">button</a>
+                </div>
+        </div>
+    </nav>
+
+<!-- start Adding menu items -->
+
+<div class="container main-container">
+    <div class="main-item-container">
+        <h1>Adding menu items</h1>
+        <p>
+            The menu items translations are located in config/menu and the useMenu custom hook pulls these translations (via GraphQL query) and inserts them into the pages.
+        </p>
+        <div class="links">
+            <a href="#">Link to Google</a>
+            <a href="#">Internal link</a>
+        </div>
+     <img src="pic/image1.png" alt="img">
+
+    </div>
+</div>
+<hr class="lrow">
+
+
+<!-- start footer section -->
+
+<footer class="container">
+    <div class="icon">
+        <a href="#">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+    <p>Iceberg Gatsby is a PWA, save it for offline reading. <a href="#"> See more PWA here.</a> </p>
+    <p>Maintained by <a href="#">@_diogorodrigues.</a> You can always contribute with the project on <a href="#">Github.</a></p>
+</footer>
+
+<!-- end footer section -->
+    
+</body>
+</html>

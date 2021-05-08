@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+   width: 100%;
+   min-height: 1000px;
+   line-height: 30px;
+   font-family: 'Open Sans', sans-serif;
+}
+
+/* container */
+.container {
+   width: 55%;
+   margin: 0 auto;
+}
+
+/* start main-nav section */
+nav {
+   width: 100%;
+   margin: 0 auto;
+   background: #EAEAEA;
+}
+
+.nav-container {
+   padding: 22px 10px;
+   display: flex;
+   align-items: center;
+}
+
+.nav-items {
+   display: flex;
+   margin-left: auto;
+   margin-top: 15px;
+}
+
+.item {
+   padding: 10px;
+   margin-left: 30px;
+}
+
+.item a {
+   font-size: 16px;
+   color: #1d1d1d;
+   text-decoration: none;
+   text-transform: capitalize;
+}
+
+.active {
+   border-bottom: 4px solid #0066F9;
+}
+
+.item:hover {
+   border-bottom: 4px solid #0066F9;
+}
+
+.btn {
+   padding: 11px 23px;
+   margin-left: 30px;
+   margin-top: 14px;
+   background: #0066F9;
+}
+
+.btn a {
+   text-decoration: none;
+   text-transform: capitalize;
+   color: #ffffff;
+}
+
+/* start lorem ipsum  */
+.main-container {
+   padding: 30px 18px;
+}
+
+.main-item-container h1 {
+   font-size: 36px;
+   font-weight: 600;
+   margin-top: 25px;
+}
+
+.main-item-container h2 {
+   font-size: 24px;
+   font-weight: 600;
+   margin-top: 50px;
+}
+
+.main-item-container .hrow {
+   margin: 25px 0;
+   color: #ffffff;
+}
+
+.main-item-container p {
+   font-size: 17px;
+   margin-top: 25px;
+}
+
+.main-item-container .links a {
+   display: block;
+   margin-top: 10px;
+   text-decoration: none;
+   color: #0066F9;
+}
+
+.main-item-container p a {
+   color: #0066F9;
+}
+
+/* Why do we use it? */
+.we-use-it h1 {
+   font-size: 24px;
+   font-weight: 600;
+   margin: 20px 0;
+}
+
+.we-use-it p {
+   font-size: 17px;
+   margin-top: 10px;
+}
+
+.we-use-it img {
+   margin: 20px 0;
+}
+
+/*  Where does it come from?  */
+.where-container h1 {
+   font-size: 24px;
+   font-weight: 600;
+   margin: 20px 0;
+}
+
+.where-container p {
+   font-size: 17px;
+   margin-top: 10px;
+}
+
+table {
+   margin: 15px 0;
+}
+
+table,
+th,
+td {
+   padding: 6px 13px;
+   border: 1px solid #ccc;
+}
+
+th {
+   text-align: left;
+   font-weight: 700;
+}
+
+table .tendres {
+   padding: 2px 8px;
+   border-radius: 3px;
+   background: #2d2d2d;
+   color: #ffffff;
+}
+
+blockquote {
+   border-left: 4px solid rgb(221, 221, 221);
+   padding: 0px 15px;
+   color: rgb(119, 119, 119);
+}
+
+/* Where can I get some? */
+.gate-container h1 {
+   font-size: 24px;
+   font-weight: 600;
+   margin: 20px 0;
+}
+
+.gate-container {
+   font-size: 17px;
+}
+
+iframe {
+   margin-top: 20px;
+}
+
+.row {
+   border: 0;
+   height: 4px;
+   margin: 24Px 0;
+   background:#eaeaea;
+
+}
+
+.lrow {
+   margin: 60px 0 25px 0;
+   color: #ffffff;
+}
+
+/*  start footer section */
+footer {
+   padding: 0 15px;
+   height: 160px;
+}
+
+.icon a i {
+   font-size: 40px;
+   color: #0066F9;
+   margin-right: 16px;
+}
+
+footer p {
+   margin-top: 10px;
+}
+
+footer p a {
+   color: #000000;
+}
+
+/* end footer section */
