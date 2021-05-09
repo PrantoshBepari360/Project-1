@@ -86,6 +86,11 @@ nav {
     padding: 0;
 }
 
+.post-item-container a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .post-items {
     width: 500px;
     height: 480px;
@@ -97,12 +102,12 @@ nav {
 }
 
 .button {
-    margin-top: -35px;
+    margin-top: -30px;
     display: flex;
     justify-content: center;
 }
 
-.button a {
+.button span {
     padding: 6px 10px;
     background: #7D4CDB;
     color: #ffffff;
@@ -141,7 +146,7 @@ nav {
 }
 
 .post .button {
-    margin-top: -35px;
+    margin-top: -30px;
     display: flex;
     justify-content: center;
 }

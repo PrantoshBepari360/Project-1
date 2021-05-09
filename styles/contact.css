@@ -68,7 +68,7 @@ nav {
    color: #ffffff;
 }
 
-/* start lorem ipsum  */
+/* start contact us section */
 .main-container {
    padding: 30px 18px;
 }
@@ -79,57 +79,64 @@ nav {
    margin-top: 25px;
 }
  
-.main-item-container h2 {
-   font-size: 24px;
-   font-weight: 600;
-   margin-top: 50px;
-}
- 
-.main-item-container .hrow {
-   margin: 25px 0;
-   color: #ffffff;
-}
- 
 .main-item-container p {
    font-size: 17px;
    margin-top: 25px;
 }
- 
- /* Why do we use it? */
-.we-use-it h1 {
-   font-size: 24px;
-   font-weight: 600;
-   margin: 20px 0;
+
+/* start contact section */
+.form-container {
+   margin-top: 50px;
 }
- 
-.we-use-it p {
-   font-size: 17px;
+
+.form-grup {
+   width: 100%;
+   margin-top: 25px;
+}
+
+.form-grup label {
+   display: block;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.form-input-field {
    margin-top: 10px;
+   width: 100%;
+   padding: 15px;
+   border: 1px solid #eaeaea;
+   outline: none;
+   font-size: 16px;
+   border-radius: 3px;
+   font-family: 'open sans';
 }
 
-/*  Where does it come from?  */
-.where-container h1 {
- font-size: 24px;
-   font-weight: 600;
-   margin: 20px 0;
-}
- 
-.where-container p {
-   font-size: 17px;
+.form-text-area {
    margin-top: 10px;
+   width: 100%;
+   padding: 15px;
+   border: 1px solid #eaeaea;
+   outline: none;
+   font-size: 16px;
+   border-radius: 3px;
+   resize: none;
+   font-family: 'open sans';
 }
 
- /* Where can I get some? */
-.gate-container h1 {
-   font-size: 24px;
+.form-submit-button {
+   padding: 10px 30px;
+   border: none;
+   background: #0066f9;
+   color: #fff;
+   font-size: 16px;
    font-weight: 600;
-   margin: 20px 0;
-}
- 
-.gate-container p {
-   font-size: 17px;
+   border-radius: 3px;
+   text-transform: uppercase;
+   cursor: pointer;
+   letter-spacing: 1px;
 }
 
+ 
 .lrow {
    margin: 60px 0 25px 0;
    color: #ffffff;
